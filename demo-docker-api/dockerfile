@@ -1,0 +1,11 @@
+# Берём официальный образ Pode
+FROM badgerati/pode:latest-alpine
+
+# Копируем файлы приложения в контейнер
+COPY . /usr/src/app/
+
+# Открываем порт 8080
+EXPOSE 8080
+
+# Запускаем наш сервис, файл server.ps1
+CMD [ "pwsh", "-c", "cd /usr/src/app; ./server.ps1" ]

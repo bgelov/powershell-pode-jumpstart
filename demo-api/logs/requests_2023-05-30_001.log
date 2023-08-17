@@ -1,0 +1,7 @@
+﻿127.0.0.1 - - [30/May/2023:20:41:11 -03:00] "GET /api/get-childitem HTTP/1.1" 401 1127 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [30/May/2023:20:41:17 -03:00] "GET /api/get-childitem HTTP/1.1" 200 487 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [30/May/2023:20:46:04 -03:00] "GET /api/get-childitem HTTP/1.1" 200 487 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [30/May/2023:20:46:15 -03:00] "DELETE /api/remove-logs HTTP/1.1" 200 132 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [30/May/2023:20:46:22 -03:00] "GET /api/get-childitem HTTP/1.1" 200 358 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [30/May/2023:20:46:31 -03:00] "GET /api/get-childitem HTTP/1.1" 401 1127 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [30/May/2023:21:05:48 -03:00] "GET /api/get-childitem HTTP/1.1" 200 358 "-" "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.19045; en-US) PowerShell/7.2.11"
